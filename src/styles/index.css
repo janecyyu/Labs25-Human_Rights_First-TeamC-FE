@@ -7,8 +7,9 @@
 
 /* NavBar.js Styling */
 
-h3 {
-  color: #370617
+.logo-text {
+  color: #370617;
+  font-size: 100%;
 }
 
 a {
