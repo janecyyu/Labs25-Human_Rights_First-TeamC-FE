@@ -193,7 +193,7 @@ const Map = () => {
         <div className="incidents_icons">
           <i
             class="fa fa-map-marker"
-            style={{ 'font-size': '2rem', color: 'DarkRed' }}
+            style={{ 'font-size': '2.5rem', color: 'DarkRed' }}
           />
         </div>
       );
@@ -202,7 +202,7 @@ const Map = () => {
         <div className="incidents_icons">
           <i
             class="fa fa-map-marker"
-            style={{ color: 'Green', 'font-size': '2rem' }}
+            style={{ color: 'Green', 'font-size': '2.5rem' }}
           />
         </div>
       );
@@ -211,7 +211,7 @@ const Map = () => {
         <div className="incidents_icons">
           <i
             class="fa fa-map-marker"
-            style={{ color: 'Turquoise', 'font-size': '2rem' }}
+            style={{ color: 'Turquoise', 'font-size': '2.5rem' }}
           />
         </div>
       );
@@ -220,7 +220,7 @@ const Map = () => {
         <div className="incidents_icons">
           <i
             class="fa fa-map-marker"
-            style={{ color: 'RoyalBlue', 'font-size': '2rem' }}
+            style={{ color: 'RoyalBlue', 'font-size': '2.5rem' }}
           />
         </div>
       );
@@ -229,7 +229,7 @@ const Map = () => {
         <div className="incidents_icons">
           <i
             class="fa fa-map-marker"
-            style={{ color: 'PaleVioletRed', 'font-size': '2rem' }}
+            style={{ color: 'PaleVioletRed', 'font-size': '2.5rem' }}
           />
         </div>
       );
@@ -238,7 +238,7 @@ const Map = () => {
         <div className="incidents_icons">
           <i
             class="fa fa-map-marker"
-            style={{ color: 'Magenta', 'font-size': '2rem' }}
+            style={{ color: 'Magenta', 'font-size': '2.5rem' }}
           />
         </div>
       );
@@ -247,7 +247,7 @@ const Map = () => {
         <div className="incidents_icons">
           <i
             class="fa fa-map-marker"
-            style={{ color: 'LightSlateGrey', 'font-size': '2rem' }}
+            style={{ color: 'LightSlateGrey', 'font-size': '2.5rem' }}
           />
         </div>
       );
@@ -256,7 +256,7 @@ const Map = () => {
         <div className="incidents_icons">
           <i
             class="fa fa-map-marker"
-            style={{ color: 'Red', 'font-size': '2rem' }}
+            style={{ color: 'Red', 'font-size': '2.5rem' }}
           />
         </div>
       );
@@ -379,8 +379,10 @@ const Map = () => {
               </Button>
             </label>
             <br />
+            <br />
             <label>
               Type of incidents
+              <br />
               <FormGroup row>
                 <FormControlLabel
                   control={
