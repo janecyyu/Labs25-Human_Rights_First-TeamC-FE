@@ -361,36 +361,6 @@ const Map = () => {
                     <br />
                   </label>
                   <label>
-                    Search by zip code:
-                    <form
-                      noValidate
-                      autoComplete="off"
-                      className={classesForZipCodeFilter.root}
-                    >
-                      <TextField
-                        id="filled-basic"
-                        label="Zip Code Here"
-                        name="zipCode"
-                        value={zipCode}
-                        onChange={handleZipCodeChange}
-                      />
-                    </form>
-                    <Button
-                      variant="contained"
-                      type="submit"
-                      value="Submit"
-                      color="primary"
-                      onClick={submitZipCodeHandler}
-                      disabled={
-                        zipCode.length > 0 && usZips[zipCode] ? false : true
-                      }
-                    >
-                      Submit
-                    </Button>
-                  </label>
-                  <br />
-                  <br />
-                  <label>
                     Type of incidents
                     <FormGroup row>
                       <FormControlLabel

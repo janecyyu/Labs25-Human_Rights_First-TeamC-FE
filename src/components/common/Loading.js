@@ -64,7 +64,7 @@ export const Loading = () => {
               <br /> Our goal is to provide information regarding a variety of
               police brutality incidents in an accurate and timely manner to
               public. The incidents have been categorized and can be filtered by
-              types of force, location, and date.
+              types of force and state.
             </p>
           </section>
           <section className="middle">
